@@ -1,0 +1,17 @@
+D:\余冬\开发\Projects\WpfApplication11\WpfApplication11\bin\Debug\WpfApplication11.exe.config
+D:\余冬\开发\Projects\WpfApplication11\WpfApplication11\bin\Debug\WpfApplication11.exe
+D:\余冬\开发\Projects\WpfApplication11\WpfApplication11\bin\Debug\WpfApplication11.pdb
+D:\余冬\开发\Projects\WpfApplication11\WpfApplication11\obj\Debug\WpfApplication11.csprojResolveAssemblyReference.cache
+D:\余冬\开发\Projects\WpfApplication11\WpfApplication11\obj\Debug\BarChartControl.baml
+D:\余冬\开发\Projects\WpfApplication11\WpfApplication11\obj\Debug\BarChartControl.g.cs
+D:\余冬\开发\Projects\WpfApplication11\WpfApplication11\obj\Debug\MainWindow.g.cs
+D:\余冬\开发\Projects\WpfApplication11\WpfApplication11\obj\Debug\App.g.cs
+D:\余冬\开发\Projects\WpfApplication11\WpfApplication11\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\余冬\开发\Projects\WpfApplication11\WpfApplication11\obj\Debug\WpfApplication11_MarkupCompile.cache
+D:\余冬\开发\Projects\WpfApplication11\WpfApplication11\obj\Debug\WpfApplication11_MarkupCompile.lref
+D:\余冬\开发\Projects\WpfApplication11\WpfApplication11\obj\Debug\MainWindow.baml
+D:\余冬\开发\Projects\WpfApplication11\WpfApplication11\obj\Debug\WpfApplication11.g.resources
+D:\余冬\开发\Projects\WpfApplication11\WpfApplication11\obj\Debug\WpfApplication11.Properties.Resources.resources
+D:\余冬\开发\Projects\WpfApplication11\WpfApplication11\obj\Debug\WpfApplication11.csproj.GenerateResource.Cache
+D:\余冬\开发\Projects\WpfApplication11\WpfApplication11\obj\Debug\WpfApplication11.exe
+D:\余冬\开发\Projects\WpfApplication11\WpfApplication11\obj\Debug\WpfApplication11.pdb

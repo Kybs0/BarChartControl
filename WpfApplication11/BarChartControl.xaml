@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="WpfApplication11.BarChartControl"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+            mc:Ignorable="d" 
+            d:DesignHeight="100" d:DesignWidth="200" Loaded="BarChartControl_OnLoaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="HeaderGrid" Grid.Row="0" Grid.Column="1" Height="20">
+        </Grid>
+
+        <Grid x:Name="LeftGrid" Grid.Row="1" Grid.Column="0">
+        </Grid>
+        <Border x:Name="MainBorder" Grid.Row="1" Grid.Column="1" BorderThickness="2,0,2,0" BorderBrush="Black">
+        </Border>
+        <Grid x:Name="MainGridForRow1" Grid.Row="1" Grid.Column="1">
+
+        </Grid>
+        <Grid x:Name="MainGridFrom0To1" Grid.Row="0" Grid.Column="1" Grid.RowSpan="2">
+
+        </Grid>
+        <Grid x:Name="RightGrid" Grid.Row="1" Grid.Column="2">
+        </Grid>
+
+        <Grid x:Name="BottomGrid" Grid.Row="2" Grid.Column="1">
+        </Grid>
+    </Grid>
+</UserControl>

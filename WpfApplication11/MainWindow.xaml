@@ -1,0 +1,35 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wpfApplication11="clr-namespace:WpfApplication11"
+        x:Class="WpfApplication11.MainWindow"
+        Title="MainWindow" Height="350" Width="600" Background="#FF7CADBD">
+    <Grid>
+        <wpfApplication11:BarChartControl BorderBrush="White" Width="500" Height="250" BorderThickness="1,0,1,0" HeaderHeight="20">
+            <wpfApplication11:BarChartControl.AxisY>
+                <wpfApplication11:AxisYModel Width="30" ForeGround="White">
+                    <wpfApplication11:AxisYModel.Titles>
+                        <wpfApplication11:AxisYDataModel Name="0" Value="0"></wpfApplication11:AxisYDataModel>
+                        <wpfApplication11:AxisYDataModel Name="20" Value="20"></wpfApplication11:AxisYDataModel>
+                        <wpfApplication11:AxisYDataModel Name="40" Value="40"></wpfApplication11:AxisYDataModel>
+                        <wpfApplication11:AxisYDataModel Name="60" Value="60"></wpfApplication11:AxisYDataModel>
+                        <wpfApplication11:AxisYDataModel Name="80" Value="80"></wpfApplication11:AxisYDataModel>
+                        <wpfApplication11:AxisYDataModel Name="100" Value="100"></wpfApplication11:AxisYDataModel>
+                    </wpfApplication11:AxisYModel.Titles>
+                </wpfApplication11:AxisYModel>
+            </wpfApplication11:BarChartControl.AxisY>
+            <wpfApplication11:BarChartControl.AxisX>
+                <wpfApplication11:AxisXModel Height="30" ForeGround="White">
+                    <wpfApplication11:AxisXModel.Datas>
+                        <wpfApplication11:AxisXDataModel Name="A" Value="100" FillBrush="DeepSkyBlue" FillEndBrush="#FF6CD7FB"></wpfApplication11:AxisXDataModel>
+                        <wpfApplication11:AxisXDataModel Name="B" Value="50"  FillBrush="#FF06F906" FillEndBrush="#FF5CF95C"></wpfApplication11:AxisXDataModel>
+                        <wpfApplication11:AxisXDataModel Name="C" Value="70"  FillBrush="Cyan" FillEndBrush="#FF4DFFFF"></wpfApplication11:AxisXDataModel>
+                        <wpfApplication11:AxisXDataModel Name="D" Value="30" FillBrush="GreenYellow" FillEndBrush="#FFBFFD60"></wpfApplication11:AxisXDataModel>
+                        <wpfApplication11:AxisXDataModel Name="E" Value="86" FillBrush="DarkOrchid" FillEndBrush="#FFCC73F7"></wpfApplication11:AxisXDataModel>
+                        <wpfApplication11:AxisXDataModel Name="F" Value="60" FillBrush="Coral" FillEndBrush="#FFF9A181"></wpfApplication11:AxisXDataModel>
+                    </wpfApplication11:AxisXModel.Datas>
+                </wpfApplication11:AxisXModel>
+            </wpfApplication11:BarChartControl.AxisX>
+        </wpfApplication11:BarChartControl>
+    </Grid>
+</Window>
